@@ -1,0 +1,234 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* html tailus ui */
+@layer base {
+  :root {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+    --card: 0 0% 5%;
+    --card-foreground: 0 0% 100%;
+    --popover: 0 0% 5%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 40 52% 62%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 70%;
+    --accent: 40 52% 62%;
+    --accent-foreground: 0 0% 0%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 40 52% 62%;
+    --radius: 0.5rem;
+    --gold: 40 52% 62%;
+    --gold-light: 40 52% 72%;
+    --gold-dark: 40 52% 52%;
+    --pure-black: 0 0% 0%;
+    --pure-white: 0 0% 100%;
+    --dark-gray: 0 0% 8%;
+    --medium-gray: 0 0% 15%;
+    --gradient-gold: linear-gradient(
+      135deg,
+      hsl(40 52% 62%) 0%,
+      hsl(40 60% 45%) 100%
+    );
+    --gradient-dark: linear-gradient(
+      180deg,
+      hsl(0 0% 0%) 0%,
+      hsl(0 0% 8%) 100%
+    );
+    --gradient-card: linear-gradient(
+      145deg,
+      hsl(0 0% 8%) 0%,
+      hsl(0 0% 5%) 100%
+    );
+    --gradient-hero: linear-gradient(
+      135deg,
+      hsla(0 0% 0% / 0.85) 0%,
+      hsla(0 0% 0% / 0.6) 100%
+    );
+    --gradient-section-alt: linear-gradient(
+      180deg,
+      hsl(0 0% 5%) 0%,
+      hsl(0 0% 0%) 100%
+    );
+    --sidebar-background: 0 0% 5%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 40 52% 62%;
+    --sidebar-primary-foreground: 0 0% 0%;
+    --sidebar-accent: 0 0% 15%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 0 0% 20%;
+    --sidebar-ring: 40 52% 62%;
+  }
+}
+
+@layer utilities {
+  .text-gradient-gold {
+    background-image: linear-gradient(
+      135deg,
+      hsl(var(--gold-light)),
+      hsl(var(--gold-dark))
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .gradient-gold {
+    background: var(--gradient-gold);
+  }
+
+  .gradient-section-alt {
+    background: var(--gradient-section-alt);
+  }
+
+  .gradient-card {
+    background: var(--gradient-card);
+  }
+}
+
+@layer components {
+  ul {
+    list-style: none;
+    margin-left: 0;
+  }
+
+  .entry-content ul,
+  .entry-content ol {
+    list-style: revert;
+    margin-left: revert;
+  }
+
+  .editor-content ul,
+  .check-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .editor-content ul li,
+  .check-list li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .editor-content ul li::before,
+  .check-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.15rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    background-color: #d4af37; /* primary */
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21.801 10A10 10 0 1 1 17 3.335'/%3E%3Cpath d='m9 11 3 3L22 4'/%3E%3C/svg%3E");
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21.801 10A10 10 0 1 1 17 3.335'/%3E%3Cpath d='m9 11 3 3L22 4'/%3E%3C/svg%3E");
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: center;
+  }
+
+  .topbar-contact a:first-child::before {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+    background-color: currentColor;
+    mask: url("../assets/svg/phone.svg") no-repeat center / contain;
+  }
+
+  .topbar-contact a:last-child::before {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+    background-color: currentColor;
+    mask: url("../assets/svg/mail.svg") no-repeat center / contain;
+  }
+
+  /* contact form */
+  /* placeholder  */
+  .card-shine {
+    @apply relative overflow-hidden;
+  }
+
+  .card-shine::before {
+    content: "";
+    @apply absolute inset-0 -left-full w-full h-full;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      hsl(var(--gold-light) / 0.15),
+      transparent
+    );
+    transition: left 0.5s ease;
+  }
+
+  .card-shine:hover::before {
+    left: 100%;
+  }
+  /* placeholder  */
+
+  #contact form p {
+    @apply flex-1;
+  }
+
+  #contact form label {
+    @apply block text-sm font-semibold text-foreground;
+  }
+
+  #contact form label span {
+    @apply mt-2;
+  }
+
+  #contact form input:not([type="checkbox"]),
+  #contact form select {
+    @apply w-full border border-solid border-solid border-border rounded-xl focus:ring-2 focus:ring-primary focus:border-primary transition-all outline-none bg-muted/50 text-foreground;
+  }
+
+  #contact form textarea {
+    @apply max-h-48 w-full px-4 py-3 border border-solid border-solid border-border rounded-xl focus:ring-2 focus:ring-primary focus:border-primary transition-all outline-none resize-none bg-muted/50;
+  }
+
+  #contact form fieldset {
+    @apply mb-8 rounded-xl;
+  }
+
+  #contact form fieldset span.service-checkbox {
+    @apply flex flex-col;
+  }
+
+  #contact form fieldset span.service-checkbox > span {
+    @apply ml-0;
+  }
+
+  #contact form fieldset span.service-checkbox > span label {
+    @apply flex items-center gap-3 p-4 border border-solid border-solid border-border rounded-xl cursor-pointer hover:border-primary transition-colors mb-4;
+  }
+
+  #contact form fieldset span.service-checkbox > span label input {
+    @apply w-fit;
+  }
+
+  #contact form fieldset span.service-checkbox > span label span {
+    @apply mt-0;
+  }
+
+  #contact form input[type="submit"] {
+    @apply inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-gradient-to-r from-gold to-gold-dark text-primary-foreground font-semibold hover:shadow-xl hover:shadow-primary/30 hover:-translate-y-0.5 h-14 rounded-lg px-10 text-base w-full mt-auto;
+  }
+
+  /* tractions */
+  #ast-scroll-top {
+    @apply flex justify-center items-center !important;
+  }
+}

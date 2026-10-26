@@ -1,0 +1,31 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors / IDE
+.idea/
+.vscode/
+*.sw?
+*.suo
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build / cache
+frontend/dist/
+frontend/dist-ssr/
+.cache/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment
+.env
+.env.*
+*.local
