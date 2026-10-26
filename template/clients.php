@@ -103,19 +103,19 @@ $q = new WP_Query($args);
                                 <li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big w-4 h-4 text-primary">
                                         <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
                                         <path d="m9 11 3 3L22 4"></path>
-                                    </svg><?php esc_html_e('Marketing & Sales Consultancy', 'arqamweb'); ?></li>
+                                    </svg><?php esc_html_e('Marketing &amp; Sales Consultancy', 'arqamweb'); ?></li>
                                 <li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big w-4 h-4 text-primary">
                                         <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
                                         <path d="m9 11 3 3L22 4"></path>
-                                    </svg><?php esc_html_e('Brand Strategy & Positioning', 'arqamweb'); ?></li>
+                                    </svg><?php esc_html_e('Brand Strategy &amp; Positioning', 'arqamweb'); ?></li>
                                 <li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big w-4 h-4 text-primary">
                                         <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
                                         <path d="m9 11 3 3L22 4"></path>
-                                    </svg><?php esc_html_e('Social Media Management & Content Creation', 'arqamweb'); ?></li>
+                                    </svg><?php esc_html_e('Social Media Management &amp; Content Creation', 'arqamweb'); ?></li>
                                 <li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big w-4 h-4 text-primary">
                                         <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
                                         <path d="m9 11 3 3L22 4"></path>
-                                    </svg><?php esc_html_e('Business Development & Training Programs', 'arqamweb'); ?></li>
+                                    </svg><?php esc_html_e('Business Development &amp; Training Programs', 'arqamweb'); ?></li>
                             </ul>
                         </div>
                         <div class="p-6 bg-muted rounded-xl">

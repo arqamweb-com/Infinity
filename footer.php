@@ -24,7 +24,7 @@ if (! defined('ABSPATH')) {
 		<div class="grid sm:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8">
 			<div class="lg:col-span-1">
 				<h4 class="font-heading text-xl font-bold text-primary mb-6 uppercase tracking-wide"><?php esc_html_e('INFINITY CONSULTATION', 'arqamweb'); ?></h4>
-				<p class="text-muted-foreground leading-relaxed"><?php esc_html_e('Infinity Consultations is a strategic business & marketing consultancy dedicated to empowering SMEs in Egypt and the Middle East.', 'arqamweb'); ?></p>
+				<p class="text-muted-foreground leading-relaxed"><?php esc_html_e('Infinity Consultations is a strategic business &amp; marketing consultancy dedicated to empowering SMEs in Egypt and the Middle East.', 'arqamweb'); ?></p>
 			</div>
 			<div>
 				<h4 class="font-heading text-lg font-semibold text-foreground mb-6"><?php esc_html_e('Main Pages', 'arqamweb'); ?></h4>

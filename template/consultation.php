@@ -49,7 +49,7 @@ get_header(); ?>
                         <div class="absolute -top-4 -right-4 w-24 h-24 border-2 border-primary/30 rounded-2xl -z-10"></div>
                     </div>
                     <div><span class="text-primary font-medium tracking-wider uppercase text-sm"><?php esc_html_e('About Dr. Rabab Mohamed', 'arqamweb'); ?></span>
-                        <h2 class="font-heading text-2xl md:text-3xl font-bold text-foreground mt-3 mb-6"><?php /* translators: %1$s: opening span tag, %2$s: closing span tag */ printf(esc_html__('Marketing & Sales %1$sConsultant%2$s', 'arqamweb'), '<span class="text-gradient-gold">', '</span>'); ?></h2>
+                        <h2 class="font-heading text-2xl md:text-3xl font-bold text-foreground mt-3 mb-6"><?php /* translators: %1$s: opening span tag, %2$s: closing span tag */ printf(esc_html__('Marketing &amp; Sales %1$sConsultant%2$s', 'arqamweb'), '<span class="text-gradient-gold">', '</span>'); ?></h2>
                         <p class="text-muted-foreground text-lg leading-relaxed mb-8"><?php esc_html_e('Dr. Rabab Mohamed is a Marketing and Sales Consultant with over 15 years of practical experience in developing marketing strategies, coaching professionals, and supporting projects. She has built a strong reputation for transforming complex marketing concepts into clear, applicable steps that generate measurable results.', 'arqamweb'); ?></p>
                         <div class="grid sm:grid-cols-2 gap-4 mb-8">
                             <div class="flex items-center gap-3">
@@ -97,7 +97,7 @@ get_header(); ?>
             <div class="container mx-auto px-4">
                 <div class="max-w-4xl mx-auto">
                     <div class="text-center mb-12"><span class="text-primary font-medium tracking-wider uppercase text-sm"><?php esc_html_e('Expertise', 'arqamweb'); ?></span>
-                        <h2 class="font-heading text-3xl md:text-4xl font-bold text-gray-900 mt-3"><?php /* translators: %1$s: opening span tag, %2$s: closing span tag */ printf(esc_html__('Marketing & Sales %1$sConsultation%2$s', 'arqamweb'), '<span class="text-gradient-gold">', '</span>'); ?></h2>
+                        <h2 class="font-heading text-3xl md:text-4xl font-bold text-gray-900 mt-3"><?php /* translators: %1$s: opening span tag, %2$s: closing span tag */ printf(esc_html__('Marketing &amp; Sales %1$sConsultation%2$s', 'arqamweb'), '<span class="text-gradient-gold">', '</span>'); ?></h2>
                     </div>
                     <div class="bg-gray-50 border border-gray-200 rounded-2xl p-8 lg:p-12 mb-12">
                         <p class="text-gray-600 text-lg leading-relaxed mb-8"><?php esc_html_e('She specializes in providing tailored consultation for:', 'arqamweb'); ?></p>
@@ -109,13 +109,13 @@ get_header(); ?>
                                 <div class="w-2 h-2 rounded-full bg-primary flex-shrink-0"></div><span class="text-gray-900"><?php esc_html_e('Sales Funnel Optimization', 'arqamweb'); ?></span>
                             </div>
                             <div class="flex items-center gap-3">
-                                <div class="w-2 h-2 rounded-full bg-primary flex-shrink-0"></div><span class="text-gray-900"><?php esc_html_e('Brand Positioning & Messaging', 'arqamweb'); ?></span>
+                                <div class="w-2 h-2 rounded-full bg-primary flex-shrink-0"></div><span class="text-gray-900"><?php esc_html_e('Brand Positioning &amp; Messaging', 'arqamweb'); ?></span>
                             </div>
                             <div class="flex items-center gap-3">
                                 <div class="w-2 h-2 rounded-full bg-primary flex-shrink-0"></div><span class="text-gray-900"><?php esc_html_e('Digital Presence Enhancement', 'arqamweb'); ?></span>
                             </div>
                             <div class="flex items-center gap-3">
-                                <div class="w-2 h-2 rounded-full bg-primary flex-shrink-0"></div><span class="text-gray-900"><?php esc_html_e('Customer Experience & Engagement Planning', 'arqamweb'); ?></span>
+                                <div class="w-2 h-2 rounded-full bg-primary flex-shrink-0"></div><span class="text-gray-900"><?php esc_html_e('Customer Experience &amp; Engagement Planning', 'arqamweb'); ?></span>
                             </div>
                         </div>
                         <p class="text-gray-600 mt-8 leading-relaxed"><?php esc_html_e('Her consultations help businesses identify growth opportunities, refine their brand voice, and build sustainable marketing structures.', 'arqamweb'); ?></p>
@@ -179,7 +179,7 @@ get_header(); ?>
                                 <li class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-award w-5 h-5 text-primary flex-shrink-0">
                                         <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
                                         <circle cx="12" cy="8" r="6"></circle>
-                                    </svg><span class="text-gray-900"><?php esc_html_e('Marketing & Business Development', 'arqamweb'); ?></span></li>
+                                    </svg><span class="text-gray-900"><?php esc_html_e('Marketing &amp; Business Development', 'arqamweb'); ?></span></li>
                                 <li class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-award w-5 h-5 text-primary flex-shrink-0">
                                         <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
                                         <circle cx="12" cy="8" r="6"></circle>
@@ -187,7 +187,7 @@ get_header(); ?>
                                 <li class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-award w-5 h-5 text-primary flex-shrink-0">
                                         <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
                                         <circle cx="12" cy="8" r="6"></circle>
-                                    </svg><span class="text-gray-900"><?php esc_html_e('Consumer Behavior & Market Research', 'arqamweb'); ?></span></li>
+                                    </svg><span class="text-gray-900"><?php esc_html_e('Consumer Behavior &amp; Market Research', 'arqamweb'); ?></span></li>
                             </ul>
                             <p class="text-gray-600 mt-6 leading-relaxed"><?php esc_html_e('Her academic background enhances her ability to deliver structured, insightful, and well-grounded marketing programs.', 'arqamweb'); ?></p>
                         </div>

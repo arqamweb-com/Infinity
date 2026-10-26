@@ -13,7 +13,7 @@
                 <div class="absolute -top-4 -right-4 w-24 h-24 border-2 border-primary/30 rounded-2xl -z-10"></div>
             </div>
             <div><span class="text-primary font-medium tracking-wider uppercase text-sm"><?php esc_html_e('About Dr. Rabab Mohamed', 'arqamweb'); ?></span>
-                <h3 class="font-heading text-2xl md:text-3xl font-bold text-[#1a150b] mt-3 mb-6"><?php esc_html_e('Marketing & Sales Consultant', 'arqamweb'); ?></h3>
+                <h3 class="font-heading text-2xl md:text-3xl font-bold text-[#1a150b] mt-3 mb-6"><?php esc_html_e('Marketing &amp; Sales Consultant', 'arqamweb'); ?></h3>
                 <p class="text-[#574626] text-lg leading-relaxed mb-8"><?php esc_html_e('Dr. Rabab Mohamed is a Marketing and Sales Consultant with over 15 years of practical experience in developing marketing strategies, coaching professionals, and supporting projects. She has built a strong reputation for transforming complex marketing concepts into clear, applicable steps that generate measurable results.', 'arqamweb'); ?></p>
                 <div class="grid sm:grid-cols-2 gap-4 mb-8">
                     <div class="flex items-center gap-3">

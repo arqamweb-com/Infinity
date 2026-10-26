@@ -71,7 +71,7 @@
             <div class="order-1 lg:order-2">
                 <span class="text-primary font-medium tracking-wider uppercase text-sm"><?php esc_html_e('Who We Are', 'arqamweb'); ?></span>
                 <h2 class="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-[#1a150b] mt-3 mb-6"><?php /* translators: %1$s: opening span tag, %2$s: closing span tag */ printf(esc_html__('About %1$sInfinity%2$s', 'arqamweb'), '<span class="text-gradient-gold">', '</span>'); ?></h2>
-                <p class="text-[#574626] text-lg leading-relaxed mb-8"><?php esc_html_e('Infinity Consultations is a strategic business & marketing consultancy dedicated to empowering SMEs in Egypt and the Middle East. We blend creativity, market intelligence, and proven systems to turn your vision into reality.', 'arqamweb'); ?></p>
+                <p class="text-[#574626] text-lg leading-relaxed mb-8"><?php esc_html_e('Infinity Consultations is a strategic business &amp; marketing consultancy dedicated to empowering SMEs in Egypt and the Middle East. We blend creativity, market intelligence, and proven systems to turn your vision into reality.', 'arqamweb'); ?></p>
                 <div class="grid sm:grid-cols-2 gap-4 mb-8">
                     <div class="flex items-center gap-3">
                         <div class="w-2 h-2 bg-primary rounded-full"></div><span class="text-[#1a150b] font-medium"><?php esc_html_e('Strategic Planning', 'arqamweb'); ?></span>

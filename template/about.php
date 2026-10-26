@@ -31,7 +31,7 @@ get_header(); ?>
         <div class="container mx-auto px-4 relative z-10">
             <div class="text-center max-w-3xl mx-auto"><span class="text-primary font-medium tracking-wider uppercase text-sm"><?php esc_html_e('About Us', 'arqamweb'); ?></span>
                 <h1 class="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-white mt-3 mb-6"><?php /* translators: %1$s: opening span tag, %2$s: closing span tag */ printf(esc_html__('Who We %1$sAre%2$s', 'arqamweb'), '<span class="text-gradient-gold">', '</span>'); ?></h1>
-                <p class="text-gray-300 text-lg leading-relaxed"><?php esc_html_e('Infinity Consultations is a strategic business & marketing consultancy dedicated to empowering SMEs in Egypt and the Middle East. We blend creativity, market intelligence, and proven systems to turn your vision into reality.', 'arqamweb'); ?></p>
+                <p class="text-gray-300 text-lg leading-relaxed"><?php esc_html_e('Infinity Consultations is a strategic business &amp; marketing consultancy dedicated to empowering SMEs in Egypt and the Middle East. We blend creativity, market intelligence, and proven systems to turn your vision into reality.', 'arqamweb'); ?></p>
             </div>
         </div>
     </section>

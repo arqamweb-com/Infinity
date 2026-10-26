@@ -42,7 +42,7 @@ if (!defined('ABSPATH')) {
 			</div>
 			<div class="container mx-auto px-4 relative z-10">
 				<div class="text-center max-w-3xl mx-auto"><span class="text-primary font-medium tracking-wider uppercase text-sm"><?php esc_html_e('Our Blog', 'arqamweb'); ?></span>
-					<h1 class="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mt-3 mb-6"><?php /* translators: %1$s: opening span tag, %2$s: closing span tag */ printf(esc_html__('Insights & %1$sIdeas%2$s', 'arqamweb'), '<span class="text-gradient-gold">', '</span>'); ?></h1>
+					<h1 class="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mt-3 mb-6"><?php /* translators: %1$s: opening span tag, %2$s: closing span tag */ printf(esc_html__('Insights &amp; %1$sIdeas%2$s', 'arqamweb'), '<span class="text-gradient-gold">', '</span>'); ?></h1>
 					<p class="text-muted-foreground text-lg leading-relaxed"><?php esc_html_e('Explore our latest articles on marketing strategies, business growth, and industry insights to help your brand thrive.', 'arqamweb'); ?></p>
 				</div>
 			</div>
