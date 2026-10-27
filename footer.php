@@ -49,11 +49,11 @@ if (! defined('ABSPATH')) {
 							'fallback_cb'    => false,
 						]);
 					else : ?>
-						<li><a href="https://infinity-consultation.com/service/social-media-management/" class="text-muted-foreground hover:text-primary transition-colors"><?php esc_html_e('Social Media Management', 'arqamweb'); ?></a></li>
-						<li><a href="https://infinity-consultation.com/service/advertising-campaigns/" class="text-muted-foreground hover:text-primary transition-colors"><?php esc_html_e('Advertising Campaigns', 'arqamweb'); ?></a></li>
-						<li><a href="https://infinity-consultation.com/service/content-creation/" class="text-muted-foreground hover:text-primary transition-colors"><?php esc_html_e('Content Creation', 'arqamweb'); ?></a></li>
-						<li><a href="https://infinity-consultation.com/service/graphic-design/" class="text-muted-foreground hover:text-primary transition-colors"><?php esc_html_e('Graphic Design', 'arqamweb'); ?></a></li>
-						<li><a href="https://infinity-consultation.com/service/website-services/" class="text-muted-foreground hover:text-primary transition-colors"><?php esc_html_e('Website Services', 'arqamweb'); ?></a></li>
+						<li><a href="<?php echo esc_url(__('https://infinity-consultation.com/service/social-media-management/', 'arqamweb')); ?>" class="text-muted-foreground hover:text-primary transition-colors"><?php esc_html_e('Social Media Management', 'arqamweb'); ?></a></li>
+						<li><a href="<?php echo esc_url(__('https://infinity-consultation.com/service/advertising-campaigns/', 'arqamweb')); ?>" class="text-muted-foreground hover:text-primary transition-colors"><?php esc_html_e('Advertising Campaigns', 'arqamweb'); ?></a></li>
+						<li><a href="<?php echo esc_url(__('https://infinity-consultation.com/service/content-creation/', 'arqamweb')); ?>" class="text-muted-foreground hover:text-primary transition-colors"><?php esc_html_e('Content Creation', 'arqamweb'); ?></a></li>
+						<li><a href="<?php echo esc_url(__('https://infinity-consultation.com/service/graphic-design/', 'arqamweb')); ?>" class="text-muted-foreground hover:text-primary transition-colors"><?php esc_html_e('Graphic Design', 'arqamweb'); ?></a></li>
+						<li><a href="<?php echo esc_url(__('https://infinity-consultation.com/service/website-services/', 'arqamweb')); ?>" class="text-muted-foreground hover:text-primary transition-colors"><?php esc_html_e('Website Services', 'arqamweb'); ?></a></li>
 					<?php endif; ?>
 					<li><a href="<?php echo get_page_url_by_slug('services'); ?>" class="text-muted-foreground hover:text-primary transition-colors"><?php esc_html_e('View More Services', 'arqamweb'); ?></a></li>
 				</ul>
