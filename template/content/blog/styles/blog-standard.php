@@ -53,7 +53,7 @@ $category_title = esc_html($cat ? $cat[0]->name : __('Blog', 'arqamweb'));
                     <path d="M5 12h14"></path>
                     <path d="m12 5 7 7-7 7"></path>
                 </svg>
-            </span>
+            </a>
         </div>
     </div>
 </article>

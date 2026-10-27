@@ -49,3 +49,22 @@ Template: astra
   background-color: currentColor;
   mask: url("frontend/assets/svg/mail.svg") no-repeat center / contain;
 }
+
+[dir="rtl"] .animate-marquee {
+  animation-name: marquee-rtl;
+}
+
+@keyframes marquee-rtl {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+body .card-shine::before {
+  right: auto;
+  pointer-events: none;
+}

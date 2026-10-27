@@ -12,7 +12,7 @@
 /**
  * Define Constants
  */
-define('CHILD_THEME_ARQAMWEB_VERSION', '1.1.4');
+define('CHILD_THEME_ARQAMWEB_VERSION', '1.1.5');
 
 /**
  * Load theme textdomain (WPML String Translation)
