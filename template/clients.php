@@ -91,7 +91,7 @@ $q = new WP_Query($args);
                         <p class="text-muted-foreground leading-relaxed"><?php esc_html_e('Every episode feels like a real consultation — combining Dr. Rabab\'s expertise with Infinity\'s creative production to deliver content that\'s both educational and inspiring.', 'arqamweb'); ?></p>
                         <div class="mt-8 p-6 bg-primary/10 rounded-xl border-l-4 border-primary">
                             <p class="text-lg font-medium text-foreground"><?php esc_html_e('In One Line:', 'arqamweb'); ?></p>
-                            <p class="text-muted-foreground italic mt-2"><?php esc_html_e('"From confusion to clarity — Marketing Prescription gives every business its right marketing dose."', 'arqamweb'); ?></p>
+                            <p class="text-muted-foreground italic mt-2">"<?php esc_html_e('From confusion to clarity — Marketing Prescription gives every business its right marketing dose.', 'arqamweb'); ?>"</p>
                         </div>
                     </div>
                     <div class="gradient-card border border-primary/30 rounded-2xl p-8 lg:p-12">

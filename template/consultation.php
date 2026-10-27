@@ -198,8 +198,8 @@ get_header(); ?>
                                     <line x1="12" x2="12" y1="19" y2="22"></line>
                                 </svg></div>
                             <h3 class="font-heading text-xl font-semibold text-gray-900 mb-4"><?php esc_html_e('Marketing Prescription Podcast', 'arqamweb'); ?></h3>
-                            <p class="text-gray-600 text-sm leading-relaxed mb-4"><?php esc_html_e('She is the founder of the initiative "Marketing Prescription (Rocheta El Tasweeq)", created to offer simplified and accessible marketing education for women and beginners entering the digital marketing field.', 'arqamweb'); ?></p>
-                            <p class="text-primary text-sm italic"><?php esc_html_e('"Just like every illness has its prescription, every business has its marketing prescription."', 'arqamweb'); ?></p>
+                            <p class="text-gray-600 text-sm leading-relaxed mb-4"><?php esc_html_e('She is the founder of the initiative “Marketing Prescription (Rocheta El Tasweeq)”, created to offer simplified and accessible marketing education for women and beginners entering the digital marketing field.', 'arqamweb'); ?></p>
+                            <p class="text-primary text-sm italic">"<?php esc_html_e('Just like every illness has its prescription, every business has its marketing prescription.', 'arqamweb'); ?>"</p>
                         </div>
                     </div>
                 </div>
@@ -209,7 +209,7 @@ get_header(); ?>
             <div class="container mx-auto px-4">
                 <div class="max-w-4xl mx-auto text-center"><span class="text-primary font-medium tracking-wider uppercase text-sm"><?php esc_html_e('Purpose', 'arqamweb'); ?></span>
                     <h2 class="font-heading text-3xl md:text-4xl font-bold text-foreground mt-3 mb-8"><?php /* translators: %1$s: opening span tag, %2$s: closing span tag */ printf(esc_html__('Her %1$sMission%2$s', 'arqamweb'), '<span class="text-gradient-gold">', '</span>'); ?></h2>
-                    <blockquote class="text-xl md:text-2xl text-foreground italic leading-relaxed mb-8"><?php esc_html_e('"To empower individuals and women entrepreneurs with the marketing knowledge, tools, and confidence they need to create sustainable growth and real professional impact."', 'arqamweb'); ?></blockquote>
+                    <blockquote class="text-xl md:text-2xl text-foreground italic leading-relaxed mb-8">"<?php esc_html_e('To empower individuals and women entrepreneurs with the marketing knowledge, tools, and confidence they need to create sustainable growth and real professional impact.', 'arqamweb'); ?>"</blockquote>
                     <p class="text-muted-foreground text-lg"><?php esc_html_e('She believes marketing should be accessible, simplified, and aligned with each person\'s or business\'s actual needs.', 'arqamweb'); ?></p>
                 </div>
             </div>
